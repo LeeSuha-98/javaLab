@@ -25,7 +25,7 @@ public class SplitExample {
 	}
 	
 }
-// 실행 결과
+// 실행 결과ㅇㄹ
 // 아이디
 // 이름
 // 패스워드
