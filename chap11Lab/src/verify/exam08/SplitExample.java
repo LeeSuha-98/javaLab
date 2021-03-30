@@ -8,7 +8,7 @@ public class SplitExample {
 		String  str = "아이디,이름,패스워드";
 
 		// 작성 위치
-		// #1: split() 메소드 이용
+		// #1: split() 메소드 이용ㅇ
 		String [] str1 = str.split(",");
 		for(String s : str1)
 			System.out.println(s);
@@ -21,7 +21,7 @@ public class SplitExample {
 			String s = str2.nextToken();
 			System.out.println(s);
 		}
-		
+		//
 	}
 	
 }
