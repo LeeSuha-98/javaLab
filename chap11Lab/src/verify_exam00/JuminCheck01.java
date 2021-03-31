@@ -1,4 +1,4 @@
-package verify_exam;
+package verify_exam00;
 
 import java.io.InputStream;
 import java.util.Scanner;
