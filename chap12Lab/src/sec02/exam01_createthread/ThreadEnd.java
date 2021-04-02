@@ -1,5 +1,6 @@
 package sec02.exam01_createthread;
 
+//ThreadEnd는 Thread의 하위 클래스
 public class ThreadEnd extends Thread {
 
 	@Override
@@ -11,7 +12,9 @@ public class ThreadEnd extends Thread {
 	}
 
 	public static void main(String[] args) {
-		ThreadEnd te = new ThreadEnd();
+		//2. Thread를 하위 Thread
+		Thread te = new ThreadEnd(); //자식 객체 활용
+		//ThreadEnd te = new ThreadEnd();
 		// thread를 실행시킴
 		te.start();
 

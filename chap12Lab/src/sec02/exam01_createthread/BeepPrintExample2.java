@@ -18,7 +18,7 @@ public class BeepPrintExample2 {
 					try { Thread.sleep(500); } catch(Exception e) {}
 				}
 			}
-		});*/
+		});*/ //익명 
 		
 		//how3
 		/*Thread thread = new Thread(() -> {
@@ -28,9 +28,11 @@ public class BeepPrintExample2 {
 				try { Thread.sleep(500); } catch(Exception e) {}
 			}
 		});*/
-		
+		//작업 스레드가 수행
 		thread.start();
 		
+		
+		//Main 스레드가 수행
 		for(int i=0; i<5; i++) {
 			System.out.println("띵");
 			try { Thread.sleep(500); } catch(Exception e) {}

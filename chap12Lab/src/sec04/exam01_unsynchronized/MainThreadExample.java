@@ -6,10 +6,10 @@ public class MainThreadExample {
 		
 		User1 user1 = new User1();
 		user1.setCalculator(calculator);
-		user1.start();
+		user1.start(); //2초후에 100이 나오게
 
 		User2 user2 = new User2();
 		user2.setCalculator(calculator);
-		user2.start();
+		user2.start(); //2초후에 50이 나오게
 	}
 }
