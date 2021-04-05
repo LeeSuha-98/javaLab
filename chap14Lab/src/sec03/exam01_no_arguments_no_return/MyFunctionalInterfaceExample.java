@@ -4,10 +4,21 @@ public class MyFunctionalInterfaceExample {
 	public static void main(String[] args) {
 		MyFunctionalInterface fi;
 		
+		
+		//익명구현객체
+		fi = new MyFunctionalInterface() {
+
+			@Override
+			public void method() {
+				// TODO Auto-generated method stub
+				
+			}
+		};
+		
 		fi= () -> { 
 			String str = "method call1";
 			System.out.println(str);
-		};
+		}; 
 		fi.method();
 		
 		fi = () -> { System.out.println("method call2"); };
