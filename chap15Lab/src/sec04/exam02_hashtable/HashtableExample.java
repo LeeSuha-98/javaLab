@@ -13,6 +13,7 @@ public class HashtableExample {
 
 		Scanner scanner = new Scanner(System.in);
 
+		
 		while (true) {
 			System.out.println("아이디와 비밀번호를 입력해주세요");
 			System.out.print("아이디: ");
