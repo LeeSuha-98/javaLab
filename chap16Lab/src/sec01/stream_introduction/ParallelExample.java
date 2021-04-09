@@ -10,6 +10,7 @@ public class ParallelExample {
 		
 		//순차 처리
 		Stream<String> stream = list.stream();
+	
 		stream.forEach(ParallelExample :: print);
 		
 		System.out.println();

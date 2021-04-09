@@ -12,6 +12,7 @@ public class LambdaExpressionsExample {
 		);
 		
 		Stream<Student> stream = list.stream();
+		
 		stream.forEach(s -> {
 			String name = s.getName();
 			int score = s.getScore();
