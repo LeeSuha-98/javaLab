@@ -17,7 +17,9 @@ public class FromFileContentExample {
 		
 		//Files.lines() 메소드 이용
 		stream = Files.lines(path, Charset.defaultCharset());
-		stream.forEach( System.out :: println );
+		//매개변수의 메소드 참조
+		stream.forEach(s -> System.out.println());
+		//stream.forEach( System.out :: println );
 		stream.close();
 		System.out.println();
 		
