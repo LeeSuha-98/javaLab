@@ -18,5 +18,5 @@ public class MaleStudentExample {
 		
 		maleStudent.getList().stream()
 			.forEach(s -> System.out.println(s.getName()));
-	}
+	}//
 }
