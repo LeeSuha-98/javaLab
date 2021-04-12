@@ -16,7 +16,7 @@ public class AsDoubleStreamAndBoxedExample {
 		
 		intStream = Arrays.stream(intArray);
 		intStream
-			.boxed()
+			.boxed() //중간처리:매핑(int->Integer)
 			.forEach(obj -> System.out.println(obj.intValue()));
 	}
 }

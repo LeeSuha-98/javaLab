@@ -2,6 +2,7 @@ package sec03.stream_pipelines;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Predicate;
 
 public class StreamPipelinesExample {
 	public static void main(String[] args) {
@@ -13,7 +14,19 @@ public class StreamPipelinesExample {
 		);
 		
 		double ageAvg =   list.stream()
-			.filter(m -> m.getSex()==Member.MALE)
+				//중간처리
+				
+			//.filter(m -> m.getSex()==Member.MALE)
+				.filter(new Predicate<Member>() {
+
+					@Override
+					public boolean test(Member m) {
+						// TODO Auto-generated method stub
+						return  m.getSex()==Member.MALE;
+					}
+					
+				})
+				//람다식=> .mapToInt(m->m.getAge())
 			.mapToInt(Member :: getAge)
 			.average()
 			.getAsDouble();
