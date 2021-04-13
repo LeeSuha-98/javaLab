@@ -10,7 +10,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 
 public class RootController implements Initializable {
-	@FXML private Button btn1;
+	@FXML private Button btn1; //DI 주입
 	@FXML private Button btn2;
 	@FXML private Button btn3;
 
@@ -25,7 +25,7 @@ public class RootController implements Initializable {
 		btn2.setOnAction(event->handleBtn2Action(event));
 		btn3.setOnAction(event->handleBtn3Action(event));
 	}
-	
+	//
 	public void handleBtn1Action(ActionEvent event) { 
 		System.out.println("버튼1 클릭"); 
 	}
