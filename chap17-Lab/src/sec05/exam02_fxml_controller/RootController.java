@@ -12,14 +12,14 @@ import javafx.scene.control.Button;
 public class RootController implements Initializable {
 	@FXML private Button btn1; //DI 주입
 	@FXML private Button btn2;
-	@FXML private Button btn3;
+	@FXML private Button btn3;//DI
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
-		btn1.setOnAction(new EventHandler<ActionEvent>() {
+		btn1.setOnAction(new EventHandler<ActionEvent>() {  //bt1을 클릭했을때
 			@Override
 			public void handle(ActionEvent event) {
-				handleBtn1Action(event);
+				handleBtn1Action(event); //이벤트를 띄워라
 			}
 		});
 		btn2.setOnAction(event->handleBtn2Action(event));

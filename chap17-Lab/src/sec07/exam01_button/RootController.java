@@ -19,8 +19,8 @@ import javafx.scene.layout.BorderPane;
 
 public class RootController implements Initializable {
 	@FXML private CheckBox chk1;
-	@FXML private CheckBox chk2;
-	@FXML private ImageView checkImageView;
+	@FXML private CheckBox chk2;//체크박스
+	@FXML private ImageView checkImageView;//체크박스 이미지
 	@FXML private ToggleGroup group;
 	@FXML private ImageView radioImageView;	
 	@FXML private Button btnExit;
