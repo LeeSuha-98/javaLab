@@ -10,7 +10,7 @@ public class ReadExample1 {
 		int readByte;
 		while(true) {
 			readByte = is.read();
-			if(readByte == -1) break;
+			if(readByte == -1) break; //더 읽을게 없으면 -1로 리턴한다.
 			System.out.println((char)readByte);
 		}
 		is.close();

@@ -7,7 +7,7 @@ public class WriteExample3 {
 
 	public static void main(String[] args) throws Exception {
 		OutputStream os = new FileOutputStream("C:/Temp/test.txt");
-		byte[] data = "ABC".getBytes();
+		byte[] data = "ABC".getBytes(); //ABCD -> BC¸¸ ÀúÀåµÊ
 		os.write(data, 1, 2);
 		os.flush();
 		os.close();

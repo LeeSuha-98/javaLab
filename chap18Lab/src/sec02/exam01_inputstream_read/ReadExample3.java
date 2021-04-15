@@ -2,7 +2,7 @@ package sec02.exam01_inputstream_read;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
-
+//아예 8바이트로 출력되는 코드
 public class ReadExample3 {
 
 	public static void main(String[] args) throws Exception {
