@@ -9,7 +9,7 @@ Label {
 }
 
 #welcome-text {
-   -fx-font-size: 35px;
+   -fx-font-size: 34px;
    -fx-font-family: "Arial Black";
    -fx-text-fill: linear-gradient(darkgray, lightgray);
    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 3, 0 , 2 , 2.1 );
