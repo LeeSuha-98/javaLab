@@ -13,7 +13,7 @@ public static void main(String[] args) {
   String sql;
   String name, email, tel ;
   int ino;
-  
+  //
      try{
       Class.forName(driver);
       con = DriverManager.getConnection(url, "SCOTT", "TIGER" );      

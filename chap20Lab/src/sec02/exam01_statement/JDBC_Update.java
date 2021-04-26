@@ -14,7 +14,7 @@ public static void main(String[] args) {
 
   Connection con = null;
   Statement stmt = null ;
-
+//
   String sql;
   int no=0;
   String  name, email, tel ;
