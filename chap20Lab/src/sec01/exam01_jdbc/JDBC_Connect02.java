@@ -24,7 +24,7 @@ public class JDBC_Connect02 {
 			Class.forName(driver);
 
 			/** ORACLE¿¡¼­ Connection °´Ã¼ ***********************************/
-			con = DriverManager.getConnection(url, "SCOTT", "TIGER");
+			con = DriverManager.getConnection(url, "c##testdb", "testdb");
 			/*******************************************************************/
 
 			/** My-SQL¿¡¼­ Connection °´Ã¼ ***********************************/
