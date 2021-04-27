@@ -16,7 +16,8 @@ class  JDBC_Select02{
     ResultSet  rs   = null;
 	int no = 0; 
     String name="", email="", tel="", address="", ts="";  //데이터베이스에서 얻어온 필드값 저장할 변수 선언
-    String sql;               //SQL문을 저장할 변수 선언
+    String sql;              
+    //SQL문을 저장할 변수 선언
 
     try{
       Class.forName(driver);

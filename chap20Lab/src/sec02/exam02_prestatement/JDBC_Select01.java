@@ -12,7 +12,7 @@ class JDBC_Select01 {
 
 		Connection con = null;
 		PreparedStatement pstmt = null;
-		//
+		
 		// ---JDBC_Select 추가된 내용 -------
 		ResultSet rs = null;
 		ResultSet rs01 = null;

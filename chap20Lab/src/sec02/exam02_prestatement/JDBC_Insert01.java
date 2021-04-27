@@ -17,7 +17,7 @@ class JDBC_Insert01 {
 
 		//ResultSet rs = null;
 		String sql;
-//
+
 		String name, email, tel, no;
 
 		try {
