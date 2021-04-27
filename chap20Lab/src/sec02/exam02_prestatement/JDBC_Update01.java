@@ -10,7 +10,7 @@ public static void main(String[] args) {
 
   Connection con = null;
   PreparedStatement pstmt =  null;
-
+//
   String sql;
   String name, email, tel ;
   int ino;
