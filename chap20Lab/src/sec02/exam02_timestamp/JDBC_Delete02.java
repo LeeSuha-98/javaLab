@@ -12,6 +12,7 @@ public static void main(String[] args) {
   String url = "jdbc:oracle:thin:@localhost:1521:MYORACLE";
 
   Connection con = null;
+  //
   PreparedStatement pstmt =  null;
   String sql;
   int no;
