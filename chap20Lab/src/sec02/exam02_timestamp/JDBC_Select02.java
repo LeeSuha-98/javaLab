@@ -9,7 +9,7 @@ class  JDBC_Select02{
 
 	String driver = "oracle.jdbc.driver.OracleDriver";
     String url = "jdbc:oracle:thin:@localhost:1521:MYORACLE";
-//
+
     Connection con  = null;
     PreparedStatement pstmt =  null;
     //---JDBC_Select 추가된 내용 -------
